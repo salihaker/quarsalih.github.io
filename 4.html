@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<style>
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		body{
+			font-family: Lato,Arial,sans-serif;
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			width: 100%;
+			height: 100%;
+		}
+		.kr{
+			border-radius: 1rem;
+			border:0.01rem solid #606060;
+			width: 15px;
+			height: 15px;
+			position: relative;
+			overflow: hidden;
+		}
+		#e{
+			background-color: #fff;
+			height: 33.3%;
+			width: 100%;
+		}
+		#c{
+			background-color: rgb(0, 57, 166);
+			height: 33.3%;
+			width: 100%;
+		}
+		#d{
+			background-color: rgb(213, 43, 30);
+			height: 33.3%;
+			width: 100%;
+		}
+		.right{
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			width: 45px;
+		}
+		.left img{
+			width: 100px;
+			height: 15px;
+			display: flex;
+			align-items: center;
+		}
+		.wrapper{
+			width: 300px;
+			height: 415px;
+			margin-top: 50px;
+		}
+		.right p{
+			font-size: 11px;
+		}
+		.head{
+			width: 280px;
+			height: 30px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			align-content: center;
+			margin-bottom: 10px;
+			padding: 10px;
+		}
+		.main{
+			background-image: url(./a.png);
+			background-size: cover;
+			background-position: center;
+			width: auto;
+			height: 170px;
+			border-radius: 16px;
+		}
+		.main-te{
+			display: flex;
+			flex-direction: column;
+			justify-content:center;
+			align-items: center;
+			color: #fff;
+			width: 270px;
+			height: 130px;
+			margin: auto;
+			padding: 15px;
+			    font-family: Lato-Bold,Arial,sans-serif
+		}
+		.main-te h4{
+			height: 50px;
+			font-size: 17px;
+			line-height: 24px;
+			text-align: center;
+			margin-top: 12px;
+		}
+		.main-te p {
+			display: inline-block;
+    padding: 6px 32px;
+    background: #fff;
+    border-radius: 16px;
+    font-weight: 400;
+    color: #0b1f33;
+    font-size: 12px;
+    margin-top: 12px;
+		}
+		.main-te span {
+			margin-top: 12px;
+			font-weight: bold;
+		}
+		.about{
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			align-items: center;
+			margin-top: 20px;
+		}
+		.a-m{
+			margin: 5px;
+			font-size: 16px;
+		}
+		.p-m span{
+			color: #66727f;
+			font-weight: lighter;
+		}
+		.p-m{
+			margin: 5px;
+			font-size: 14px;
+			font-weight: lighter;
+		}
+		.data-m span{
+			color: #66727f;
+			font-weight: lighter;
+		}
+		.data-m{
+			margin: 5px;
+			font-size: 14px;
+			font-weight: lighter;
+		}
+		.close{
+			display: inline-block;
+			border: 2px solid #0d4cd3;
+			border-radius: 8px;
+			display: inline-block;
+			padding: 10px 30px;
+			margin-top: 20px;
+		}
+		.close h4{
+			color: #0d4cd3;
+			font-weight: lighter;
+			font-size: 13px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	</style>
+	<div class="wrapper">
+		<div class="head">
+			
+			<div class="left">
+				<img src="d.png" alt="">
+			</div>
+			<div class="right">
+				<div class="kr">
+				<div id="e"></div>
+				<div id="c"></div>
+				<div id="d"></div>
+			</div>
+			<p>RUS</p>
+		</div>
+</div>
+<div class="main">
+	<div class="main-te">
+		<h4>Сертификат о вакцинации COVID-19</h4>
+		<p>Действителен</p>
+		<span>№ 9100000001085802</span>
+	</div>
+</div>
+<div class="about">
+	<h5 class="a-m">Г******** С****** Р*********</h5>
+	<h6 class="p-m">Паспорт: <span>80** ***415./</span></h6>
+	<h6 class="data-m">Дата рождения: <span>16.05.2004</span> </h6>
+	<div class="close">
+	<h4>Закрыть</h4>
+</div>
+</div>
+</div>
+</body>
+</html>
